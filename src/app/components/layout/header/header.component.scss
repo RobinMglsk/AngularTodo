@@ -1,0 +1,21 @@
+.header{
+    background:black;
+    color:white;
+    border-bottom: 1px solid gray;
+    text-align:center;
+    padding:0.75em;
+}
+
+nav{
+    color:white;
+    font-size: 0.75em;
+
+    a{
+        color: white;
+        text-decoration: none;
+
+        &:hover{
+            color:red
+        }
+    }
+}
